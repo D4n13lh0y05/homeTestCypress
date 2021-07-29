@@ -4,11 +4,15 @@
   "description": "Somo Automation Engineer Take Home Test",
   "main": "1-login-page.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/cypress run"
   },
   "author": "Daniel Hoyos",
   "license": "ISC",
   "dependencies": {
     "cypress": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/D4n13lh0y05/homeTestCypress"
   }
 }
