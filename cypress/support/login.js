@@ -1,7 +1,7 @@
 Cypress.Commands.add('login',(username,password)=>{
-    cy.fixture('index').then((index)=>{
-        cy.get(index.usernameBox).type(username);
-        cy.get(index.passwordBox).type(password);
-        cy.get(index.loginButton).click();
+    cy.fixture('login').then((login)=>{
+        cy.get(login.usernameBox).type(username);
+        cy.get(login.passwordBox).type(password);
+        cy.get(login.loginButton).click();
     })
 })

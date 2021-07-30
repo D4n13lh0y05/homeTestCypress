@@ -10,8 +10,8 @@ describe('Login page',()=>{
     })
     it ('Unsuccessful login - invalid parameters',()=>{
         cy.login('test','test!')
-        cy.fixture('index').then((index)=>{
-            cy.get(index.notificationLoginLb).should('contain','Your username is invalid!');
+        cy.fixture('login').then((login)=>{
+            cy.get(login.notificationLoginLb).should('contain','Your username is invalid!');
         })
     })
 })

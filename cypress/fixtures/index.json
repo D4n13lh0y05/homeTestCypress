@@ -1,6 +1,0 @@
-{
-    "usernameBox":"#username",
-    "passwordBox":"#password",
-    "loginButton":".radius",
-    "notificationLoginLb":"#flash"
-}
